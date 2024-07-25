@@ -1,0 +1,68 @@
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/client/styles.css ***!
+  \*************************************************************************/
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.buy {
+  background-color: green;
+}
+.sell {
+  background-color: red;
+}
+.nut {
+  background-color: yellow;
+}
+
+.itm {
+  background-color: lightyellow;
+}
+
+.atm {
+  background-color: blue;
+  color: white;
+}
+
+.highOI {
+  background-color: blueviolet;
+  color: white;
+}
+
+.call-heading,
+.put-heading,
+.pcr-heading {
+  border-top: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+.call-heading {
+  background-color: green;
+  color: white;
+}
+.put-heading {
+  background-color: maroon;
+  color: white;
+}
+
+.call-container,
+.put-container {
+  display: inline-block;
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.total {
+  background-color: yellow;
+}
+
